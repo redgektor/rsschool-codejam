@@ -1,8 +1,11 @@
-let sum = "sum";
+function sum(a,b) {
+    return a + b;
+}
 
 function make(firstArg) {
+    
 	let summ = 0;
-	if (firstArg == "sum") {
+	if (typeof(firstArg) == "function") {
 		return summ;
 	}
 	let argArray = Array.from(arguments);
@@ -10,11 +13,12 @@ function make(firstArg) {
 
 
     const addition = function(arg) {
-		if (arg == "sum") {
+		if (typeof(arg) == "function") {
 			return summ;
 		}
 
-		let argArray = Array.from(arguments);
+        let argArray = Array.from(arguments);
+        
 		summ += argArray.reduce((elem, acc) => acc + +elem);
 		return addition;
     }
