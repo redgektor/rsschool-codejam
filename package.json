@@ -1,0 +1,24 @@
+{
+  "name": "rsschool-codejam",
+  "version": "1.0.0",
+  "description": "CodeJam Core JS",
+  "main": "sumOfOther.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redgektor/rsschool-codejam.git"
+  },
+  "author": "Vadim Moroz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redgektor/rsschool-codejam/issues"
+  },
+  "homepage": "https://github.com/redgektor/rsschool-codejam#readme",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "mocha": "^5.2.0"
+  }
+}
