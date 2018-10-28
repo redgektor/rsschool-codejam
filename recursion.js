@@ -1,4 +1,4 @@
-function recursion(tree) {
+module.exports = function recursion(tree) {
   const result = [];
 
   function convert(obj, level) {
@@ -21,4 +21,4 @@ function recursion(tree) {
   convert(tree, 0);
 
   return result;
-}
+};

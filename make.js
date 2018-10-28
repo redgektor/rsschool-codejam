@@ -2,7 +2,7 @@ function sum(a, b) {
   return a + b;
 }
 
-function make(firstarg) {
+module.exports = function make(firstarg) {
   let summ = 0;
   if (typeof (firstarg) === 'function') {
     return summ;
@@ -22,4 +22,4 @@ function make(firstarg) {
   };
 
   return addition;
-}
+};
